@@ -9,17 +9,17 @@ export default function Home () {
             <div className="papadiv">
                 <div className="header"></div>
                 <div className="shelfholder">
-                    <Link to="">
-                        <div className="shelf"></div>
+                    <Link to="/shelf/a">
+                        <div className="shelf">Shelf A</div>
                     </Link>
-                    <Link to="">
-                        <div className="shelf"></div>
+                    <Link to="/shelf/b">
+                        <div className="shelf">Shelf B</div>
                     </Link>
-                    <Link to="">
-                        <div className="shelf"></div>
+                    <Link to="/shelf/c">
+                        <div className="shelf">Shelf C</div>
                     </Link>
-                    <Link to="">
-                        <div className="shelf"></div>
+                    <Link to="/shelf/d">
+                        <div className="shelf">Shelf D</div>
                     </Link>
                 </div>
             </div>
