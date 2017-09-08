@@ -14,9 +14,14 @@ massive(process.env.CONNECTION_STRING).then(db => {
     app.set('db', db);
 }).catch(err => console.log(err));
 
-
+app.get('/api/shelf/:id', ctrl.getShelf);
+app.get('/api/bin/:id', ctrl.getBin);
+app.put('/api/bin/:id', ctrl.updateBin);
+app.delete('/api/bin/:id', ctrl.deleteBin);
+app.post('/api/bin/:id', ctrl.createBin);
 
 
 
 const port = process.env.PORT || 3001;
 app.listen(port, () => console.log(`listening on port ${port}`));
+

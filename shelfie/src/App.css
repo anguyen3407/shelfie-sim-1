@@ -1,24 +1,22 @@
-.App {
-  text-align: center;
+.papadiv{
+  width: 100%;
+  height: 100vh;
+  background-color: green;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.header{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+.shelfholder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shelf{
+  width: 55%;
   height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  background-color: white;
+  margin: 10px;
 }
